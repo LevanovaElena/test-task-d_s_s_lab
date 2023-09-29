@@ -1,0 +1,62 @@
+.dialog-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog {
+  background-color: #fff;
+  max-height: 500px;
+  max-width: 350px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+}
+.dialog__header {
+  background-color: #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+.dialog__header-title-container {
+  width: 65%;
+}
+.dialog__header-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.dialog__content {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.dialog__content-block_left {
+  width: 30%;
+  border-right: 1px solid #ccc;
+}
+.dialog__content-block_right {
+  width: 70%;
+  height: 100%;
+  overflow: auto;
+}
+.dialog__footer {
+  background-color: #ddd;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 500px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
